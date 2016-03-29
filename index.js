@@ -242,7 +242,7 @@ Slideout.prototype._initTouchEvents = function() {
       return;
     }
 
-    if (Math.abs(dif_x) > 20) {
+    if (Math.abs(dif_x) > 30) {
 
       self._opening = true;
 
